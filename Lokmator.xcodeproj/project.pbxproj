@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B15E2332C0206F34C47533A /* Pods_LokmatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48577441639A7C47DEAF5EC7 /* Pods_LokmatorUITests.framework */; };
+		3F67C661F3FE92AD18B6BD2B /* Pods_Lokmator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F50F24A9EEAD1F646229AF /* Pods_Lokmator.framework */; };
+		46905FCAC98E18484A4195B5 /* Pods_LokmatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D6ADB502016A13904BC6F2 /* Pods_LokmatorTests.framework */; };
 		D629D86D1EDA328D0021539B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629D86C1EDA328D0021539B /* AppDelegate.swift */; };
 		D629D8741EDA328D0021539B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D629D8731EDA328D0021539B /* Assets.xcassets */; };
 		D629D8821EDA328D0021539B /* LokmatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629D8811EDA328D0021539B /* LokmatorTests.swift */; };
@@ -47,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095698D8B5CBEE9345BBD15C /* Pods-Lokmator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lokmator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lokmator/Pods-Lokmator.debug.xcconfig"; sourceTree = "<group>"; };
+		23FD18949A90FE2646AB0AAF /* Pods-Lokmator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lokmator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lokmator/Pods-Lokmator.release.xcconfig"; sourceTree = "<group>"; };
+		48577441639A7C47DEAF5EC7 /* Pods_LokmatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokmatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F50F24A9EEAD1F646229AF /* Pods_Lokmator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lokmator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DCFD78D31C6DDA4221828C /* Pods-LokmatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokmatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokmatorTests/Pods-LokmatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B78B6DF5C27251DD76B12532 /* Pods-LokmatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokmatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokmatorUITests/Pods-LokmatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7FC36CAA6A22C4597A4DE2F /* Pods-LokmatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokmatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokmatorTests/Pods-LokmatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D6ADB502016A13904BC6F2 /* Pods_LokmatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokmatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC802D3D4EC9E55F2CB40C2 /* Pods-LokmatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokmatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokmatorUITests/Pods-LokmatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D629D8691EDA328D0021539B /* Lokmator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lokmator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D629D86C1EDA328D0021539B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D629D8731EDA328D0021539B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F67C661F3FE92AD18B6BD2B /* Pods_Lokmator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46905FCAC98E18484A4195B5 /* Pods_LokmatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B15E2332C0206F34C47533A /* Pods_LokmatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44D379CF260F33527FA06708 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				095698D8B5CBEE9345BBD15C /* Pods-Lokmator.debug.xcconfig */,
+				23FD18949A90FE2646AB0AAF /* Pods-Lokmator.release.xcconfig */,
+				B7FC36CAA6A22C4597A4DE2F /* Pods-LokmatorTests.debug.xcconfig */,
+				92DCFD78D31C6DDA4221828C /* Pods-LokmatorTests.release.xcconfig */,
+				CBC802D3D4EC9E55F2CB40C2 /* Pods-LokmatorUITests.debug.xcconfig */,
+				B78B6DF5C27251DD76B12532 /* Pods-LokmatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D629D8601EDA328D0021539B = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +135,8 @@
 				D629D8801EDA328D0021539B /* LokmatorTests */,
 				D629D88B1EDA328D0021539B /* LokmatorUITests */,
 				D629D86A1EDA328D0021539B /* Products */,
+				44D379CF260F33527FA06708 /* Pods */,
+				DD5EB00AE47AD669F1C3A91C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -364,6 +394,16 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		DD5EB00AE47AD669F1C3A91C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87F50F24A9EEAD1F646229AF /* Pods_Lokmator.framework */,
+				C4D6ADB502016A13904BC6F2 /* Pods_LokmatorTests.framework */,
+				48577441639A7C47DEAF5EC7 /* Pods_LokmatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -371,9 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D629D8911EDA328D0021539B /* Build configuration list for PBXNativeTarget "Lokmator" */;
 			buildPhases = (
+				DD6306695529C952DC17AF17 /* [CP] Check Pods Manifest.lock */,
 				D629D8651EDA328D0021539B /* Sources */,
 				D629D8661EDA328D0021539B /* Frameworks */,
 				D629D8671EDA328D0021539B /* Resources */,
+				4C410053AB9C49673F8619EF /* [CP] Embed Pods Frameworks */,
+				950AD1880C9B6A45BDF2F8DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,9 +431,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D629D8941EDA328D0021539B /* Build configuration list for PBXNativeTarget "LokmatorTests" */;
 			buildPhases = (
+				87F40E50182D4D9C69C5422D /* [CP] Check Pods Manifest.lock */,
 				D629D8791EDA328D0021539B /* Sources */,
 				D629D87A1EDA328D0021539B /* Frameworks */,
 				D629D87B1EDA328D0021539B /* Resources */,
+				369253BDB748915D6580A28A /* [CP] Embed Pods Frameworks */,
+				5B2A6E2C4B15D85CAF88A197 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -406,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D629D8971EDA328D0021539B /* Build configuration list for PBXNativeTarget "LokmatorUITests" */;
 			buildPhases = (
+				ABB270DAA74C00A807E00A85 /* [CP] Check Pods Manifest.lock */,
 				D629D8841EDA328D0021539B /* Sources */,
 				D629D8851EDA328D0021539B /* Frameworks */,
 				D629D8861EDA328D0021539B /* Resources */,
+				EA2E12322BDB6D791AD9BFB9 /* [CP] Embed Pods Frameworks */,
+				F95C527CF6739198B0C4ADB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -492,6 +541,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		369253BDB748915D6580A28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokmatorTests/Pods-LokmatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C410053AB9C49673F8619EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lokmator/Pods-Lokmator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2A6E2C4B15D85CAF88A197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokmatorTests/Pods-LokmatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F40E50182D4D9C69C5422D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		950AD1880C9B6A45BDF2F8DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lokmator/Pods-Lokmator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB270DAA74C00A807E00A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6306695529C952DC17AF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2E12322BDB6D791AD9BFB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokmatorUITests/Pods-LokmatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95C527CF6739198B0C4ADB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokmatorUITests/Pods-LokmatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D629D8651EDA328D0021539B /* Sources */ = {
@@ -641,6 +828,7 @@
 		};
 		D629D8921EDA328D0021539B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095698D8B5CBEE9345BBD15C /* Pods-Lokmator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -654,6 +842,7 @@
 		};
 		D629D8931EDA328D0021539B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FD18949A90FE2646AB0AAF /* Pods-Lokmator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -667,6 +856,7 @@
 		};
 		D629D8951EDA328D0021539B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FC36CAA6A22C4597A4DE2F /* Pods-LokmatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -681,6 +871,7 @@
 		};
 		D629D8961EDA328D0021539B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DCFD78D31C6DDA4221828C /* Pods-LokmatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -695,6 +886,7 @@
 		};
 		D629D8981EDA328D0021539B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC802D3D4EC9E55F2CB40C2 /* Pods-LokmatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LokmatorUITests/Info.plist;
@@ -708,6 +900,7 @@
 		};
 		D629D8991EDA328D0021539B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78B6DF5C27251DD76B12532 /* Pods-LokmatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LokmatorUITests/Info.plist;
