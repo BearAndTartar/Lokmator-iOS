@@ -943,6 +943,7 @@
 				D629D8931EDA328D0021539B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D629D8941EDA328D0021539B /* Build configuration list for PBXNativeTarget "LokmatorTests" */ = {
 			isa = XCConfigurationList;
@@ -951,6 +952,7 @@
 				D629D8961EDA328D0021539B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D629D8971EDA328D0021539B /* Build configuration list for PBXNativeTarget "LokmatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -959,6 +961,7 @@
 				D629D8991EDA328D0021539B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
