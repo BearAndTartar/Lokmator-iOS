@@ -8,9 +8,10 @@ target 'Lokmator' do
   # Pods for Lokmator
   
   
-  pod 'AlamofireObjectMapper', '~> 4.0'
   pod 'Alamofire', '~> 4.4'
+  pod 'AlamofireObjectMapper', '~> 4.0'
   pod 'CocoaLumberjack/Swift'
+  pod 'DZNEmptyDataSet'
   pod 'ObjectMapper', '~> 2.2'
   pod 'RxSwift', '~> 3.0'
   pod 'RxCocoa', '~> 3.0'
