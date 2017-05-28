@@ -10,4 +10,12 @@ import UIKit
 
 class MainViewModel: LTViewModel {
 
+    let service = MainService()
+    
+    func callLokmas() -> [LokmaModel] {
+
+        let lokmas = service.getLokmas()
+        
+        return lokmas
+    }
 }
