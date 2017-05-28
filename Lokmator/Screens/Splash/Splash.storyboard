@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiE-Xt-gme" customClass="ZORLabel" customModule="MvvmStarterSwiftProject" customModuleProvider="target">
-                                <rect key="frame" x="161" y="323" width="52" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiE-Xt-gme" customClass="LTLabel" customModule="Lokmator" customModuleProvider="target">
+                                <rect key="frame" x="161" y="596" width="52" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,7 +30,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="BiE-Xt-gme" firstAttribute="centerY" secondItem="Sg9-ql-DLl" secondAttribute="centerY" id="TNd-29-6T3"/>
+                            <constraint firstItem="4Ya-qi-Spp" firstAttribute="top" secondItem="BiE-Xt-gme" secondAttribute="bottom" constant="50" id="DuI-8v-qkQ"/>
                             <constraint firstItem="BiE-Xt-gme" firstAttribute="centerX" secondItem="Sg9-ql-DLl" secondAttribute="centerX" id="UeZ-pH-e4g"/>
                         </constraints>
                     </view>

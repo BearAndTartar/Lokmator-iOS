@@ -35,6 +35,7 @@
 		D638394F1EDA3C7300A2BA03 /* LokmaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D638394D1EDA3C7300A2BA03 /* LokmaCollectionViewCell.xib */; };
 		D68C54501EDA32CA0024FD96 /* LokmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68C544F1EDA32CA0024FD96 /* LokmaModel.swift */; };
 		D68C54521EDA33400024FD96 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68C54511EDA33400024FD96 /* LocationModel.swift */; };
+		D6AB69A31EDACB0B009113B2 /* LokmaCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AB69A21EDACB0B009113B2 /* LokmaCollectionCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		D638394D1EDA3C7300A2BA03 /* LokmaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LokmaCollectionViewCell.xib; sourceTree = "<group>"; };
 		D68C544F1EDA32CA0024FD96 /* LokmaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokmaModel.swift; sourceTree = "<group>"; };
 		D68C54511EDA33400024FD96 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		D6AB69A21EDACB0B009113B2 /* LokmaCollectionCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokmaCollectionCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,11 +343,11 @@
 		D629D8B61EDA32F00021539B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D629D8B71EDA32F00021539B /* Main.storyboard */,
 				D629D8B81EDA32F00021539B /* Service */,
 				D629D8BA1EDA32F00021539B /* ViewControllers */,
 				D629D8BC1EDA32F00021539B /* ViewModels */,
 				D629D8BE1EDA32F00021539B /* Views */,
+				D629D8B71EDA32F00021539B /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -370,6 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				D629D8BD1EDA32F00021539B /* MainViewModel.swift */,
+				D6AB69A21EDACB0B009113B2 /* LokmaCollectionCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -711,6 +714,7 @@
 				D629D8D11EDA32F00021539B /* MainViewModel.swift in Sources */,
 				D629D8CC1EDA32F00021539B /* LTViewController.swift in Sources */,
 				D638394E1EDA3C7300A2BA03 /* LokmaCollectionViewCell.swift in Sources */,
+				D6AB69A31EDACB0B009113B2 /* LokmaCollectionCellViewModel.swift in Sources */,
 				D629D8C61EDA32F00021539B /* StoryboardNameConstants.swift in Sources */,
 				D629D8D01EDA32F00021539B /* MainViewController.swift in Sources */,
 				D629D8C71EDA32F00021539B /* LTButton.swift in Sources */,

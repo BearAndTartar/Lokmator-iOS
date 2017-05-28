@@ -1,19 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LokmaCollectionViewCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LokmaCollectionViewCell" id="gTV-IL-0wX" customClass="LokmaCollectionViewCell" customModule="Lokmator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9MR-2H-tb0">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lokma" translatesAutoresizingMaskIntoConstraints="NO" id="3m6-cL-bgc">
+                                <rect key="frame" x="8" y="8" width="84" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="6DD-qf-3T2"/>
+                                    <constraint firstAttribute="width" secondItem="3m6-cL-bgc" secondAttribute="height" multiplier="1:1" id="VhZ-Xw-0hf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kardesler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFB-To-nsb">
+                                <rect key="frame" x="100" y="8" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 years" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oM-Ml-uTA">
+                                <rect key="frame" x="100" y="40" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lat 35 , Lon: 35" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmE-HN-TS7">
+                                <rect key="frame" x="100" y="71" width="120" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7oM-Ml-uTA" firstAttribute="centerY" secondItem="3m6-cL-bgc" secondAttribute="centerY" id="1Pv-G8-ESz"/>
+                            <constraint firstItem="qmE-HN-TS7" firstAttribute="leading" secondItem="7oM-Ml-uTA" secondAttribute="leading" id="7VJ-7a-kGw"/>
+                            <constraint firstItem="3m6-cL-bgc" firstAttribute="leading" secondItem="9MR-2H-tb0" secondAttribute="leading" constant="8" id="EZh-1x-gWr"/>
+                            <constraint firstItem="uFB-To-nsb" firstAttribute="leading" secondItem="3m6-cL-bgc" secondAttribute="trailing" constant="8" id="PMf-Mk-kab"/>
+                            <constraint firstItem="7oM-Ml-uTA" firstAttribute="leading" secondItem="uFB-To-nsb" secondAttribute="leading" id="RqH-Km-UwB"/>
+                            <constraint firstItem="3m6-cL-bgc" firstAttribute="centerY" secondItem="9MR-2H-tb0" secondAttribute="centerY" id="lT6-r0-foW"/>
+                            <constraint firstItem="qmE-HN-TS7" firstAttribute="bottom" secondItem="3m6-cL-bgc" secondAttribute="bottom" id="ogY-cg-LG6"/>
+                            <constraint firstItem="uFB-To-nsb" firstAttribute="top" secondItem="3m6-cL-bgc" secondAttribute="top" id="p2a-bc-I8O"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9MR-2H-tb0" secondAttribute="trailing" id="5CK-pv-7nU"/>
+                <constraint firstItem="9MR-2H-tb0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fth-s9-wzM"/>
+                <constraint firstAttribute="bottom" secondItem="9MR-2H-tb0" secondAttribute="bottom" id="bRF-U5-GA4"/>
+                <constraint firstItem="9MR-2H-tb0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ya5-Hd-LHP"/>
+            </constraints>
+            <size key="customSize" width="300" height="62"/>
+            <point key="canvasLocation" x="-94" y="3"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="Lokma" width="590" height="434"/>
+    </resources>
 </document>
