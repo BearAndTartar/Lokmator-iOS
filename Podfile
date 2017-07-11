@@ -13,6 +13,7 @@ target 'Lokmator' do
   pod 'CocoaLumberjack/Swift'
   pod 'DZNEmptyDataSet'
   pod 'ObjectMapper', '~> 2.2'
+  pod 'ReactiveSwift', '~> 1.1'
   pod 'RxSwift', '~> 3.0'
   pod 'RxCocoa', '~> 3.0'
 

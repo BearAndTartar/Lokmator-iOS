@@ -8,12 +8,18 @@
 
 import Alamofire
 import AlamofireObjectMapper
+import ReactiveSwift
+import Result
 
 class MainService: LTService {
 
     struct MainServicePathConstants {
         static let Lokma = "/5929fde4110000eb04082962"
         static let User = "/592a1abf110000800508297b"
+    }
+    
+    func getLokmasSignal() /*-> Signal<[LokmaModel], NoError> */{
+    
     }
     
     func getLokmas() -> [LokmaModel] {
@@ -33,8 +39,28 @@ class MainService: LTService {
                     print(lokma.location!)
                 }
             }
+            
+            return lokmas
         }
         
         return lokmas
     }
+    
+    func getUser()  {
+        
+//        let URL = String(format: "%@%@", arguments: [self.baseURL, MainServicePathConstants.User])
+        
+//        Alamofire.request(URL).responseObject { (response: DataResponse<UserModel>) in
+//            
+//            let user = response.result.value
+//            
+//            if let user = user {
+//                print(user.name)
+//                print(user.lastName)
+//            }
+//        }
+        
+    }
+    
 }
+
